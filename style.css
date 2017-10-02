@@ -54,7 +54,7 @@ section:not(.hero):nth-child(even) {
 hr {
   width: 250px;
   height: 3px;
-  background-color: #80a3db;
+  background-color: #83B1C8;
   border: 0;
   margin-bottom: 50px;
 }
@@ -128,7 +128,7 @@ header .fa {
   background-size: cover;
   background-attachment: fixed;
   z-index: -1;
-  background-color: #80a3db;
+  background-color: #83B1C8;
 }
 
 .hero h1 {
@@ -183,10 +183,65 @@ header .fa {
 }
 
 .packages .grid li i {
-  color: #80a3db;
+  color: #83B1C8;
 }
 
 .packages .grid li h4 {
   font-size: 30px;
   margin: 25px 0;
+}
+
+/* testimonials section */
+.testimonials .quote {
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 1.5;
+  margin: 40px 0 25px;
+}
+
+/* contact section */
+.contact form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 60%;
+}
+
+.contact form .btn {
+  padding: 18px 42px;
+}
+
+.contact form input {
+  padding: 15px;
+  margin-right: 30px;
+  font-size: 18px;
+  color: #555;
+  flex: 1;
+}
+
+/* footer section */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #222;
+  color: #fff;
+  padding: 20px 0;
+}
+
+footer ul {
+  display: flex;
+}
+
+footer ul li {
+  margin-left: 16px;
+}
+
+footer p {
+  text-transform: uppercase;
+  font-size: small;
+  letter-spacing: 1px;
+  opacity: 0.6;
+  align-self: center;
 }
